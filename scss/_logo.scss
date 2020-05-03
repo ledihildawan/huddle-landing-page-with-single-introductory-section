@@ -1,0 +1,11 @@
+.logo {
+  width: 104px;
+
+  @media (min-width: 375px) {
+    font-size: 124px;
+  }
+
+  @media (min-width: 420px) {
+    width: 132px;
+  }
+}

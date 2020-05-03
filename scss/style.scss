@@ -1,0 +1,36 @@
+@import "variables";
+
+@import "reset";
+
+@import "main-header";
+@import "logo";
+@import "hero";
+@import "social-media";
+
+body {
+  font-family: $font-text;
+}
+
+.container {
+  padding: 0 30px;
+
+  @media (min-width: 1200px) {
+    padding: 0;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1280px;
+  }
+}
+
+.sr-only {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
